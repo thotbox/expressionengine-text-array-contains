@@ -31,7 +31,7 @@ class text_array_contains {
         return $result;
     }
 
-    public function usage() {
+    public static function usage() {
         ob_start();
     ?>
         Use {exp:text_array_contains string="" array="" separator=""} to return Yes/No response.
